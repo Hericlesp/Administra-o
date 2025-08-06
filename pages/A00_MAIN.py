@@ -110,7 +110,7 @@ class SistemaPonto:
         )
         self.btn_registrar.pack(pady=10)
         
-        botao_empresa = tk.Button(self.menu_lateral, text="🏢 | Cadastrar Empresa", command=self.abrir_registro_empresa, bg="#FF4500", fg="white")
+        botao_empresa = tk.Button(self.menu_frame, text="🏢 | Cadastrar Empresa", command=self.abrir_registro_empresa, bg="#FF4500", fg="white")
         botao_empresa.pack(pady=5, fill='x')
 
 
